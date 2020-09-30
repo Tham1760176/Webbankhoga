@@ -1,0 +1,236 @@
+.header {
+    background: rgb(248, 101, 3, 0.815);
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.header .menu {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    width: 60%;
+    float: left;
+}
+
+.header .menu a {
+    border-radius: 70px;
+    /* padding-left: 30px; */
+}
+
+.header .menu img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.header .menu li {
+    display: inline;
+    padding: 40px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.header .menu li a {
+    color: #fff;
+    font-size: 1.3em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-top: 40px;
+    white-space: nowrap;
+}
+
+.header .menu2 {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+    width: 180px;
+    margin-left: 250px;
+    background: rgb(248, 101, 3, 0.815);
+    padding-left: 5px;
+    position: absolute;
+}
+
+.header .menu2 li {
+    display: block;
+    z-index: 100000;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 5px;
+    float: none;
+}
+
+.header .menu2 li a {
+    text-align: left;
+}
+
+.header .menu li:hover .menu2,
+li:active .menu2 {
+    display: block;
+}
+
+.header .menu3 {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+    min-width: 180px;
+    margin-left: 400px;
+    background: rgb(248, 101, 3, 0.815);
+    padding-left: 5px;
+    position: absolute;
+}
+
+.header .menu3 li {
+    display: block;
+    z-index: 100000;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 5px;
+    float: none;
+}
+
+.header .menu3 li a {
+    text-align: left;
+}
+
+.header .menu li:hover .menu3,
+li:active .menu3 {
+    display: block;
+}
+
+.header .menu li :hover {
+    color: rgb(237, 241, 13);
+    text-decoration: none;
+}
+
+.header .login-search {
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.header .login-search a {
+    padding: 10px;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header .login-search a:hover {
+    color: rgb(243, 247, 2);
+    text-decoration: none;
+}
+
+.header .login-search input {
+    background: none;
+    min-width: 150px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(56, 37, 30);
+}
+
+.header .login-search input :active {
+    min-width: 150px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(56, 37, 30);
+}
+
+.header .login-search button {
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background: rgba(248, 101, 3, 0.815);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.footer .img {
+    width: 100px;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.footer .img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.footer .contact {
+    float: right;
+    width: 500px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.footer .contact p {
+    color: #fff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+section {
+    padding: 10px;
+}
+
+.content {
+    margin: 83px;
+    background: rgba(245, 204, 144, 0.801);
+    min-height: 1200px;
+}
+
+.content .row {
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.content .row img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.content .row a {
+    font-size: 1.2em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.content .row a:hover {
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+}
+
+.content .menukhoga #sapxep {
+    float: right;
+    margin: 30px;
+    height: 40px;
+    border-bottom: 2px solid rgb(37, 33, 33);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3px;
+    background: none;
+    border-radius: 5px;
+}
